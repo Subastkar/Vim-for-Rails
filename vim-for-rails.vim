@@ -160,8 +160,7 @@ set nolist
 set backspace=indent,eol,start
 set number " Show line numbers
 set matchpairs+=<:>
-set vb t_vb= " Turn off bell, this could be more annoying, but I'm not sure how
-
+set t_vb= " Turn off bell, this could be more annoying, but I'm not sure how
 " History *********************************************************************
 set history=1000 " increase history size
 
@@ -263,7 +262,7 @@ map <Leader>ggb :Gblame<CR>
 map <Leader>gga :Gwrite<CR>
 map <Leader>ggd :Gdiff<CR>
 
-func GitGrepWord()
+function! GitGrepWord()
   normal! "zyiw
   call GitGrep(getreg('z'))
 endf
