@@ -26,10 +26,7 @@ git clone git://github.com/framallo/Vim-for-Rails.git ~/.vim
 Then you need to load on ~/.vimrc. e.g.:
 
     source ~/.vim/vim-for-rails.vim
-
-    " solarized dark background
-    colorscheme solarized
-    set background=dark
+    colorscheme molokai
 
 Then you need to load on ~/.gvimrc. e.g.:
 
