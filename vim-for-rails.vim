@@ -250,6 +250,12 @@ let g:AutoComplPop_BehaviorKeywordLength = 2
 map <Leader>ra :AS<CR>
 map <Leader>rs :RS<CR>
 
+" closetag *******************************************************************
+
+let b:closetag_html_style = 1
+let b:unaryTagsStack = ''
+
+
 " taglist ********************************************************************
 nnoremap <silent> <Leader>t :TlistToggle<CR>
 
