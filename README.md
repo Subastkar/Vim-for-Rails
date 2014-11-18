@@ -17,7 +17,7 @@ You only require ruby support for command-t plugin. So you could remove +ruby to
 
 then add the config files:
 
-git clone git://github.com/framallo/Vim-for-Rails.git ~/.vim
+git clone git://github.com/Subastkar/Vim-for-Rails.git ~/.vim
 
     cd ~/.vim
     git submodule init
